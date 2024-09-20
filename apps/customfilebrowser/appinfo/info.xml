@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info>
+  <id>customfilebrowser</id>
+  <name>Custom File Browser</name>
+  <version>0.0.1</version>
+  <description>Exposes an API endpoint to retrieve user-specific files</description>
+  <licence>AGPL</licence>
+  <author>Your Name</author>
+  <namespace>CustomFileBrowser</namespace>
+  <dependencies>
+    <nextcloud min-version="20" max-version="24"/>
+  </dependencies>
+  <php>
+    <classes>
+      <class>OCP\IURLGenerator</class>
+    </classes>
+  </php>
+</info>
